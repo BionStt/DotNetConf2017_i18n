@@ -1,0 +1,26 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
+
+@{
+    ViewData["Home"] = Localizer["Home"];
+    ViewData["About"] = Localizer["About"];
+    ViewData["Contact"] = Localizer["Contact"];
+    ViewData["Register"] = Localizer["Register"];
+    ViewData["Login"] = Localizer["Login"];
+}
+<br />
+<h2>@ViewData["Contact"]</h2>
+
+<address>
+    Chinook Music Store<br />
+    675 Fish St.<br />
+    St. Ignace, MI 49781<br />
+    <abbr title="Phone">P:</abbr>
+    555.555.5555
+</address>
+
+<address>
+    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>

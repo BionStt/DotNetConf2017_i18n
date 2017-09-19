@@ -1,0 +1,44 @@
+Command to create a cookie with Chrome Dev Tools (console)
+----------------------------------------------------------------
+document.cookie=".AspNetCore.Culture=c=fr-fr|uic=fr-fr"
+
+Location where I have resgen.exe
+----------------------------------------------------------------
+C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.2 Tools
+
+Commands to create RESX files for demos
+----------------------------------------------------------------
+resgen C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.HomeController.sv-SE.txt C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.HomeController.sv-SE.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.HomeController.en-US.txt C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.HomeController.en-US.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.HomeController.fr-FR.txt C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.HomeController.fr-FR.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.HomeController.es-ES.txt C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.HomeController.es-ES.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.AccountController.sv-SE.txt C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.AccountController.sv-SE.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.AccountController.en-US.txt C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.AccountController.en-US.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.AccountController.fr-FR.txt C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.AccountController.fr-FR.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.AccountController.es-ES.txt C:\Git\DotNetConf2017_i18n\Resources\Controllers\Controllers.AccountController.es-ES.resx
+
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.About.en-US.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.About.en-US.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.About.es-ES.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.About.es-ES.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.About.fr-FR.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.About.fr-FR.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.About.sv-SE.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.About.sv-SE.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Index.en-US.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Index.en-US.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Index.es-ES.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Index.es-ES.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Index.fr-FR.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Index.fr-FR.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Index.sv-SE.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Index.sv-SE.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Contact.en-US.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Contact.en-US.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Contact.es-ES.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Contact.es-ES.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Contact.fr-FR.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Contact.fr-FR.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Contact.sv-SE.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Home.Contact.sv-SE.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Register.en-US.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Register.en-US.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Register.es-ES.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Register.es-ES.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Register.fr-FR.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Register.fr-FR.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Register.sv-SE.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Register.sv-SE.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Login.en-US.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Login.en-US.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Login.es-ES.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Login.es-ES.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Login.fr-FR.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Login.fr-FR.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Login.sv-SE.txt C:\Git\DotNetConf2017_i18n\Resources\Views\Views.Account.Login.sv-SE.resx
+
+resgen C:\Git\DotNetConf2017_i18n\Resources\DataAnnotations\AccountViewModels.LoginViewModel.en-US.txt C:\Git\DotNetConf2017_i18n\Resources\DataAnnotations\AccountViewModels.LoginViewModel.en-US.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\DataAnnotations\AccountViewModels.LoginViewModel.es-ES.txt C:\Git\DotNetConf2017_i18n\Resources\DataAnnotations\AccountViewModels.LoginViewModel.es-ES.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\DataAnnotations\AccountViewModels.LoginViewModel.fr-FR.txt C:\Git\DotNetConf2017_i18n\Resources\DataAnnotations\AccountViewModels.LoginViewModel.fr-FR.resx
+resgen C:\Git\DotNetConf2017_i18n\Resources\DataAnnotations\AccountViewModels.LoginViewModel.sv-SE.txt C:\Git\DotNetConf2017_i18n\Resources\DataAnnotations\AccountViewModels.LoginViewModel.sv-SE.resx
