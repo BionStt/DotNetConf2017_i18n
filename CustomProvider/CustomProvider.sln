@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomLocalizer", "CustomProvider\CustomLocalizer.csproj", "{0233D587-0764-4AB6-822B-50147ADEB14A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomProvider", "CustomProvider\CustomProvider.csproj", "{0233D587-0764-4AB6-822B-50147ADEB14A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
