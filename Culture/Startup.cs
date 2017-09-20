@@ -34,7 +34,7 @@ namespace Culture
                 new CultureInfo("sv-SE")
             };
 
-            // Instaliate the RequestLocalizationOptions w/ cultures
+            // Set up the RequestLocalizationOptions w/ cultures
             var options = new RequestLocalizationOptions
             {
                 DefaultRequestCulture = new RequestCulture("en-US"),
@@ -51,8 +51,8 @@ namespace Culture
                 context.Response.StatusCode = 200;
                 context.Response.ContentType = "text/html; charset=utf-8";
 
-                var detectedCultureName = CultureInfo.CurrentCulture.EnglishName;
-                var detectedUiCultureName = CultureInfo.CurrentUICulture.EnglishName;
+                var detectedCultureName = CultureInfo.CurrentCulture.DisplayName;
+                var detectedUiCultureName = CultureInfo.CurrentUICulture.DisplayName;
 
                 var cultureTable =  "<html><body>"
                        + "<table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse;\">"

@@ -66,7 +66,7 @@ namespace ChinookMusicStore
                 new CultureInfo("sv-SE")
             };
 
-            // Instaliate the RequestLocalizationOptions w/ cultures
+            // Set up the RequestLocalizationOptions w/ cultures
             var options = new RequestLocalizationOptions
             {
                 DefaultRequestCulture = new RequestCulture("en-US"),
